@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+/* evita que paddings e margins se adicionem a width e height  */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 40;
+  /* font-size: 1.6rem; */
+  line-height: 1.7;
+  color: $color-dark-grey;
+  padding: 3rem;
+  box-sizing: border-box;
+}
