@@ -1,4 +1,4 @@
-.card {
+.blue-card {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
@@ -28,8 +28,8 @@
       &-1 {
         background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          $color-tertiary-light,
+          $color-tertiary-dark
         );
       }
     }
@@ -53,10 +53,10 @@
     &-1 {
       background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          $color-tertiary-light,
+          $color-tertiary-dark
         ),
-        url(../../img/nat-5.jpg);
+        url(../../img/nat-7.jpg);
     }
   }
 
@@ -78,8 +78,8 @@
     &-1 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-secondary-light, 0.85),
-        rgba($color-secondary-dark, 0.85)
+        rgba($color-tertiary-light, 0.85),
+        rgba($color-tertiary-dark, 0.85)
       );
     }
   }

@@ -26,6 +26,11 @@
   color: #777;
 }
 
+.btn--green {
+  background-color: $primary-color;
+  color: $color-white;
+}
+
 .btn::after {
   content: "";
   display: inline-block;
