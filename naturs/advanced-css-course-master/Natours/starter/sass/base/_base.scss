@@ -8,14 +8,29 @@
 /* evita que paddings e margins se adicionem a width e height  */
 html {
   font-size: 62.5%;
+
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+
+  @include respond(tab-port) {
+    font-size: 50%;
+  }
+
+  @include respond(big-desktop) {
+    font-size: 75%;
+  }
 }
 
 body {
   font-family: "Lato", sans-serif;
   font-weight: 40;
-  /* font-size: 1.6rem; */
   line-height: 1.7;
   color: $color-dark-grey;
   padding: 3rem;
   box-sizing: border-box;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
 }
